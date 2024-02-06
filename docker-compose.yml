@@ -1,0 +1,18 @@
+version: "3.8"
+
+networks:
+  healthcare_network:
+    driver: bridge
+
+services:
+  frontend:
+    image: varmaseaapp/healthcare-ui:v1.9
+    ports:
+      - 3000:3000
+    build:
+      context: .
+      dockerfile: app.dockerfile
+    env_file:
+      - .env
+    networks:
+      - healthcare_network

@@ -1,0 +1,1991 @@
+{
+  "login": {
+    "token": "safdadfasfas"
+  },
+  "register": {
+    "name": "fad",
+    "email": "fadli@mail.com",
+    "role": "User"
+  },
+  "admin-pharmacy": {
+    "data": {
+      "admins": [
+        {
+          "id": 1,
+          "name": "Uzumaki Naruto",
+          "email": "uzumaki.naruto@shopee.com",
+          "photo": "public/user_photo/default.jpg",
+          "phone_number": "+6281234567890",
+          "pharmacies": [
+            {
+              "id": 1,
+              "name": "RS Siloam"
+            },
+            {
+              "id": 2,
+              "name": "RS Harapan Kita"
+            },
+            {
+              "id": 3,
+              "name": "RS Harapan Kita2"
+            },
+            {
+              "id": 4,
+              "name": "RS Harapan Kita3"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Uchiha Sasuke",
+          "email": "uchiha.sasuke@shopee.com",
+          "photo": "public/user_photo/default.jpg",
+          "phone_number": "+6281234567890",
+          "pharmacies": [
+            {
+              "id": 1,
+              "name": "RS Siloam"
+            },
+            {
+              "id": 2,
+              "name": "RS Harapan Kita"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "admin-pharmacy-single": {
+    "data": {
+      "admin": {
+        "id": 1,
+        "name": "Uzumaki Naruto",
+        "email": "uzumaki.naruto@shopee.com",
+        "photo": "public/user_photo/default.jpg",
+        "phone_number": "+6281234567890",
+        "pharmacies": [
+          {
+            "id": 1,
+            "name": "RS Siloam"
+          },
+          {
+            "id": 2,
+            "name": "RS Harapan Kita"
+          },
+          {
+            "id": 3,
+            "name": "RS Harapan Kita2"
+          },
+          {
+            "id": 4,
+            "name": "RS Harapan Kita3"
+          }
+        ]
+      }
+    }
+  },
+  "pharmacies": {
+    "data": {
+      "pharmacies": [
+        {
+          "id": 1,
+          "name": "RS Harapan Kita",
+          "pharmacist_name": "Naruto",
+          "license_number": "safasdf",
+          "phone_number": "+6281234567890",
+          "address": {
+            "detail": "asdf",
+            "province": "DKI Jakarta",
+            "city": "Jakarta Utara",
+            "latitude": 12.21222,
+            "longitude": 12.1231
+          }
+        },
+        {
+          "id": 2,
+          "name": "RS Siloam",
+          "pharmacist_name": "Naruto 2",
+          "license_number": "safasdf",
+          "phone_number": "+6281234567890",
+          "address": {
+            "detail": "asdf",
+            "province": "DKI Jakarta",
+            "city": "Jakarta Pusat",
+            "latitude": -6.302446,
+            "longitude": 106.895157
+          }
+        }
+      ]
+    }
+  },
+  "pharmacydetail": {
+    "data": {
+      "pharmacy": {
+        "id": 1,
+        "name": "RS Harapan Kita",
+        "pharmacist_name": "Naruto",
+        "license_number": "safasdf",
+        "phone_number": "+6281234567890",
+        "address": {
+          "detail": "asdf",
+          "province": "DKI Jakarta",
+          "city": "Jakarta Utara",
+          "latitude": 12.21222,
+          "longitude": 12.1231
+        }
+      }
+    }
+  },
+  "pharmaciesOfAdmin": {
+    "data": {
+      "pharmacies": [
+        {
+          "id": 1,
+          "name": "RS Harapan Kita",
+          "pharmacist_name": "Naruto",
+          "license_number": "safasdf",
+          "phone_number": "+6281234567890",
+          "address": {
+            "detail": "asdf",
+            "province": "DKI Jakarta",
+            "city": "Jakarta Utara",
+            "latitude": 12.21222,
+            "longitude": 12.1231
+          }
+        },
+        {
+          "id": 2,
+          "name": "RS Siloam",
+          "pharmacist_name": "Naruto 2",
+          "license_number": "safasdf",
+          "phone_number": "+6281234567890",
+          "address": {
+            "detail": "asdf",
+            "province": "DKI Jakarta",
+            "city": "Jakarta Pusat",
+            "latitude": -6.302446,
+            "longitude": 106.895157
+          }
+        }
+      ]
+    }
+  },
+  "drugs": {
+    "data": []
+  },
+  "doctors": {
+    "data": {
+      "doctors": [
+        {
+          "id": 1,
+          "name": "Dr Budi",
+          "email": "uchiha.sasuke@shopee.com",
+          "is_verify": true,
+          "certificate": "/blabla/certificate.pdf",
+          "years_of_experience": 3,
+          "online_status": "",
+          "photo": "url/photo.png",
+          "phone_number": "+6281234567890",
+          "specialization": "umum"
+        },
+        {
+          "id": 2,
+          "name": "Dr Budi 12",
+          "email": "uchiha.sasuke@shopee.com",
+          "is_verify": false,
+          "certificate": "/blabla/certificate.pdf",
+          "years_of_experience": 4,
+          "online_status": "",
+          "photo": "url/photo.png",
+          "phone_number": "+6281234567890",
+          "specialization": "THT"
+        }
+      ]
+    }
+  },
+  "doctor": {
+    "data": {
+      "doctor": {
+        "id": 1,
+        "name": "Dr Budi",
+        "email": "uchiha.sasuke@shopee.com",
+        "is_verify": false,
+        "certificate": "http://e-journal.uajy.ac.id/10659/1/JurnalHK11025.pdf",
+        "years_of_experience": 3,
+        "online_status": "",
+        "photo": "public/user_photo/default.jpg",
+        "phone_number": "+6281234567890",
+        "specialization": "umum"
+      }
+    }
+  },
+  "users": {
+    "data": {
+      "users": [
+        {
+          "id": 1,
+          "name": "User 1",
+          "email": "uchiha.sasuke@shopee.com",
+          "phone_number": "+6281234432123",
+          "online_status": "",
+          "photo": "url/photo.png",
+          "default_address_id": 1
+        },
+        {
+          "id": 2,
+          "name": "User 2",
+          "email": "uchiha.sasuke@shopee.com",
+          "phone_number": "+6281234432123",
+          "online_status": "",
+          "photo": "url/photo.png",
+          "default_address_id": 1
+        }
+      ]
+    }
+  },
+  "products-master": {
+    "data": {
+      "products": [
+        {
+          "id": 1,
+          "name": "Obat 1 Master",
+          "generic_name": "Paracetamol",
+          "content": "dsadas",
+          "manufacture": "Kimia Farma",
+          "manufacture_id": 1,
+          "description": "blablab",
+          "drug_form": "cair",
+          "drug_form_id": 3,
+          "category": "Obat Keras",
+          "category_id": 2,
+          "unit_in_pack": "botol",
+          "weight": 100,
+          "height": 200,
+          "length": 300,
+          "width": 120,
+          "image": "public/user_photo/default.jpg",
+          "min_selling_unit": 3000,
+          "max_selling_unit": 5000,
+          "total_stock": 85
+        },
+        {
+          "id": 2,
+          "name": "Obat 2 Master",
+          "generic_name": "Paracetamol",
+          "content": "dsadas",
+          "manufacture": "Kimia Farma",
+          "description": "blablab",
+          "drug_form": "cair",
+          "category": "Obat Keras",
+          "unit_in_pack": "botol",
+          "weight": 30,
+          "height": 200,
+          "length": 32,
+          "width": 120,
+          "image": "public/user_photo/default.jpg",
+          "min_selling_unit": 5000,
+          "max_selling_unit": 5000,
+          "total_stock": 85
+        },
+        {
+          "id": 3,
+          "name": "Obat 3 Master",
+          "generic_name": "Paracetamoli",
+          "content": "dsadas",
+          "manufacture": "Kimia Farmas",
+          "description": "blablab",
+          "drug_form": "cair",
+          "category": "Obat Keras",
+          "unit_in_pack": "botol",
+          "weight": 400,
+          "height": 200,
+          "length": 300,
+          "width": 120,
+          "image": "public/user_photo/default.jpg",
+          "min_selling_unit": 3000,
+          "max_selling_unit": 5000,
+          "total_stock": 85
+        }
+      ]
+    }
+  },
+  "product-master": {
+    "data": {
+      "product": {
+        "id": 1,
+        "name": "Obat TEST 1 Master",
+        "generic_name": "Paracetamol",
+        "content": "dsadas",
+        "manufacture": "Kimia Farma",
+        "description": "ILIADIN DEWASA 0.05% NASAL SPRAY 10 ML mengandung zat aktif Oxymetazoline. Obat ini digunakan untuk meringankan hidung tersumbat dan nasofaring akibat flu, sinusitis, hayfever atau alergi saluran pernapasan bagian atas. Bila digunakan untuk kerperluan swamedikasi, jangan digunakan selama lebih dari 7 hari berturut-turut.",
+        "drug_form": "cair",
+        "category": "Obat Keras",
+        "unit_in_pack": "botol",
+        "weight": 100,
+        "height": 200,
+        "length": 300,
+        "width": 120,
+        "image": "public/user_photo/default.jpg",
+        "min_selling_unit": 3000,
+        "max_selling_unit": 5000,
+        "total_stock": 85
+      }
+    }
+  },
+  "product-master-2": {
+    "data": {
+      "product": {
+        "id": 2,
+        "name": "Obat 2 Master",
+        "generic_name": "Paracetamol",
+        "content": "dsadas",
+        "manufacture": "Kimia Farma",
+        "description": "BNS BREATHY NASAL SPRAY 30 ML mengandung zat aktif Sodium Chloride. Semprot hidung ini digunakan untuk membantu mengatasi kekeringan dalam hidung. BREATHY NASAL SPRAY membantu menambah kelembapan dalam hidung untuk menghilangkan dan melembutkan lendir yang tebal atau berkerak, hal ini membantu meredakan hidung tersumbat dan membuat bernapas lebih mudah. Dalam penggunaan obat ini HARUS SESUAI DENGAN PETUNJUK DOKTER.",
+        "drug_form": "cair",
+        "category": "Obat Keras",
+        "unit_in_pack": "botol",
+        "weight": 30,
+        "height": 200,
+        "length": 32,
+        "width": 120,
+        "image": "public/user_photo/default.jpg",
+        "min_selling_unit": 5000,
+        "max_selling_unit": 5000,
+        "total_stock": 85
+      }
+    }
+  },
+  "product-master-3": {
+    "data": {
+      "product": {
+        "id": 3,
+        "name": "Obat 3 Master",
+        "generic_name": "Paracetamoli",
+        "content": "dsadas",
+        "manufacture": "Kimia Farmas",
+        "description": "Bigroot Nose Hygiene Ultra Gentle Baby merupakan pembersih rongga hidung khusus untuk bayi berusia 0-3 tahun. Terbuat dari 100% saline water, dengan penyebaran larutan dalam tetesan yang sangat halus sehingga membuat aman dan nyaman pada bayi agar bayi bebas dari lendir dan melegakan pernapasan. Pernapasan yang baik memudahkan bayi untuk tidur lebih pulas dan nyaman pada saat makan ataupun minum susu.",
+        "drug_form": "cair",
+        "category": "Obat Keras",
+        "unit_in_pack": "botol",
+        "weight": 400,
+        "height": 200,
+        "length": 300,
+        "width": 120,
+        "image": "public/user_photo/default.jpg",
+        "min_selling_unit": 3000,
+        "max_selling_unit": 5000,
+        "total_stock": 85
+      }
+    }
+  },
+  "products-of-pharmacies": {
+    "data": {
+      "products": [
+        {
+          "id": 1,
+          "name": "Obat 1 all pharmacies managed by admin",
+          "generic_name": "Paracetamol",
+          "content": "dsadas",
+          "manufacture": "Kimia Farma",
+          "description": "blablab",
+          "drug_form": "cair",
+          "category": "Obat Keras",
+          "unit_in_pack": "botol",
+          "weight": 100,
+          "height": 200,
+          "length": 300,
+          "width": 120,
+          "image": "public/user_photo/default.jpg",
+          "selling_unit": 5000,
+          "status": "active",
+          "stock": 80,
+          "pharmacy": {
+            "id": 1,
+            "name": "RS Harapan Kita"
+          }
+        },
+        {
+          "id": 2,
+          "name": "Obat 2",
+          "generic_name": "Paracetamol",
+          "content": "dsadas",
+          "manufacture": "Kimia Farma",
+          "description": "blablab",
+          "drug_form": "cair",
+          "category": "Obat Keras",
+          "unit_in_pack": "tablet",
+          "weight": 100,
+          "height": 200,
+          "length": 300,
+          "width": 120,
+          "image": "public/user_photo/default.jpg",
+          "selling_unit": 5000,
+          "status": "inactive",
+          "stock": 5,
+          "pharmacy": {
+            "id": 2,
+            "name": "RS Harapan Kita2"
+          }
+        },
+        {
+          "id": 3,
+          "name": "Obat 2 nya RS HARAPAN kita2",
+          "generic_name": "Paracetamol",
+          "content": "dsadas",
+          "manufacture": "Kimia Farma",
+          "description": "blablab",
+          "drug_form": "cair",
+          "category": "Obat Keras",
+          "unit_in_pack": "tablet",
+          "weight": 100,
+          "height": 200,
+          "length": 300,
+          "width": 120,
+          "image": "public/user_photo/default.jpg",
+          "selling_unit": 5000,
+          "status": "inactive",
+          "stock": 5,
+          "pharmacy": {
+            "id": 2,
+            "name": "RS Harapan Kita2"
+          }
+        }
+      ]
+    }
+  },
+  "products-of-pharmacy": {
+    "data": {
+      "products": [
+        {
+          "id": 1,
+          "name": "Obat 1 of a pharmacy",
+          "generic_name": "Paracetamol",
+          "content": "dsadas",
+          "manufacture": "Kimia Farma",
+          "description": "blablab",
+          "drug_form": "cair",
+          "category": "Obat Keras",
+          "unit_in_pack": "botol",
+          "weight": 100,
+          "height": 200,
+          "length": 300,
+          "width": 120,
+          "image": "public/user_photo/default.jpg",
+          "selling_unit": 5000,
+          "status": "active",
+          "stock": 80,
+          "pharmacy": {
+            "id": 1,
+            "name": "RS Harapan Kita"
+          }
+        },
+        {
+          "id": 2,
+          "name": "Obat 2",
+          "generic_name": "Paracetamol",
+          "content": "dsadas",
+          "manufacture": "Kimia Farma",
+          "description": "blablab",
+          "drug_form": "cair",
+          "category": "Obat Keras",
+          "unit_in_pack": "tablet",
+          "weight": 100,
+          "height": 200,
+          "length": 300,
+          "width": 120,
+          "image": "public/user_photo/default.jpg",
+          "selling_unit": 5000,
+          "status": "inactive",
+          "stock": 5,
+          "pharmacy": {
+            "id": 2,
+            "name": "RS Harapan Kita2"
+          }
+        }
+      ]
+    }
+  },
+  "products-of-pharmacy-1": {
+    "data": {
+      "products": [
+        {
+          "id": 1,
+          "name": "Obat 1 of a pharmacy 1",
+          "generic_name": "Paracetamol",
+          "content": "dsadas",
+          "manufacture": "Kimia Farma",
+          "description": "blablab",
+          "drug_form": "cair",
+          "category": "Obat Keras",
+          "unit_in_pack": "botol",
+          "weight": 100,
+          "height": 200,
+          "length": 300,
+          "width": 120,
+          "image": "public/user_photo/default.jpg",
+          "selling_unit": 5000,
+          "status": "active",
+          "stock": 80,
+          "pharmacy": {
+            "id": 1,
+            "name": "RS Harapan Kita"
+          }
+        },
+        {
+          "id": 2,
+          "name": "Obat 2",
+          "generic_name": "Paracetamol",
+          "content": "dsadas",
+          "manufacture": "Kimia Farma",
+          "description": "blablab",
+          "drug_form": "cair",
+          "category": "Obat Keras",
+          "unit_in_pack": "tablet",
+          "weight": 100,
+          "height": 200,
+          "length": 300,
+          "width": 120,
+          "image": "public/user_photo/default.jpg",
+          "selling_unit": 5000,
+          "status": "inactive",
+          "stock": 5,
+          "pharmacy": {
+            "id": 1,
+            "name": "RS Harapan Kita"
+          }
+        }
+      ]
+    }
+  },
+  "product-of-pharmacy": {
+    "data": {
+      "product": {
+        "id": 1,
+        "name": "Obat TEST of a pharmacy",
+        "generic_name": "Paracetamol",
+        "content": "dsadas",
+        "manufacture": "Kimia Farma",
+        "description": "blablab",
+        "drug_form": "cair",
+        "category": "Obat Keras",
+        "unit_in_pack": "botol",
+        "weight": 100,
+        "height": 200,
+        "length": 300,
+        "width": 120,
+        "image": "public/user_photo/default.jpg",
+        "selling_unit": 5000,
+        "status": "inactive",
+        "stock": 5,
+        "pharmacy": {
+          "id": 1,
+          "name": "RS Harapan Kita"
+        }
+      }
+    }
+  },
+  "product-categories": {
+    "data": {
+      "categories": [
+        {
+          "id": 1,
+          "name": "Obat Keras",
+          "icon": "public/user_photo/default.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Obat",
+          "icon": "public/user_photo/default.jpg"
+        }
+      ]
+    }
+  },
+  "category": {
+    "data": {
+      "category": {
+        "id": 1,
+        "name": "Obat Keras",
+        "icon": "public/user_photo/default.jpg"
+      }
+    }
+  },
+  "drug-forms": {
+    "data": {
+      "drug_forms": [
+        {
+          "id": 1,
+          "name": "Cair"
+        },
+        {
+          "id": 2,
+          "name": "Bubuk"
+        },
+        {
+          "id": 3,
+          "name": "Tablet"
+        }
+      ]
+    }
+  },
+  "manufactures": {
+    "data": {
+      "manufactures": [
+        {
+          "id": 1,
+          "name": "Kimia Farma 1"
+        },
+        {
+          "id": 2,
+          "name": "Kalbe Kaldu"
+        },
+        {
+          "id": 3,
+          "name": "Kaldu Kalbe"
+        }
+      ]
+    }
+  },
+  "orders": {
+    "data": {
+      "orders": [
+        {
+          "id": 1,
+          "user": {
+            "id": 1,
+            "name": "User 1",
+            "email": "uchiha.sasuke@shopee.com",
+            "phone_number": "+6281234567890",
+            "online_status": "",
+            "photo": "url/photo.png",
+            "default_address_id": 1
+          },
+          "pharmacy": {
+            "id": 2,
+            "name": "RS Siloam",
+            "pharmacist_name": "Naruto 2",
+            "license_number": "safasdf",
+            "phone_number": "+6281234567890",
+            "email": "pharmacy.contact@mail.com",
+            "address": {
+              "detail": "asdf",
+              "province": "DKI Jakarta",
+              "city": "Jakarta Pusat",
+              "latitude": 12.21222,
+              "longitude": 12.1231
+            }
+          },
+          "order_date": "2011-10-05T14:48:00.000Z",
+          "address": {
+            "detail": "asdf",
+            "province": "DKI Jakarta",
+            "city": "Jakarta Pusat",
+            "latitude": 12.21222,
+            "longitude": 12.1231
+          },
+          "shipping_method": {
+            "name": "YES",
+            "cost_per_km": 10000
+          },
+          "payment": {
+            "payment_file": "blabla/paymentphoto.jpg",
+            "status": "paid"
+          },
+          "order_status": "Processed",
+          "shipping_cost": 10000,
+          "total_drugs_amount": 3,
+          "total_amount": 50000
+        },
+        {
+          "id": 2,
+          "user": {
+            "id": 1,
+            "name": "User 2",
+            "email": "uchiha.sasuke@shopee.com",
+            "phone_number": "+6281234567890",
+            "online_status": "",
+            "photo": "url/photo.png",
+            "default_address_id": 1
+          },
+          "pharmacy": {
+            "id": 2,
+            "name": "RS Siloam",
+            "pharmacist_name": "Naruto 2",
+            "license_number": "safasdf",
+            "phone_number": "+6281234567890",
+            "email": "pharmacy.contact@mail.com",
+            "address": {
+              "detail": "asdf",
+              "province": "DKI Jakarta",
+              "city": "Jakarta Pusat",
+              "latitude": 12.21222,
+              "longitude": 12.1231
+            }
+          },
+          "order_date": "2011-10-05T14:48:00.000Z",
+          "address": {
+            "detail": "asdf",
+            "province": "DKI Jakarta",
+            "city": "Jakarta Pusat",
+            "latitude": 12.21222,
+            "longitude": 12.1231
+          },
+          "shipping_method": {
+            "name": "YES",
+            "cost_per_km": 10000
+          },
+          "payment": {
+            "payment_file": "blabla/paymentphoto.jpg",
+            "status": "paid"
+          },
+          "order_status": "Waiting for Confirmation",
+          "shipping_cost": 10000,
+          "total_drugs_amount": 3,
+          "total_amount": 50000
+        },
+        {
+          "id": 3,
+          "user": {
+            "id": 1,
+            "name": "User 1",
+            "email": "uchiha.sasuke@shopee.com",
+            "phone_number": "+6281234567890",
+            "online_status": "",
+            "photo": "url/photo.png",
+            "default_address_id": 1
+          },
+          "pharmacy": {
+            "id": 2,
+            "name": "RS Harapan Kita2",
+            "pharmacist_name": "Naruto 2",
+            "license_number": "safasdf",
+            "phone_number": "+6281234567890",
+            "email": "pharmacy.contact@mail.com",
+            "address": {
+              "detail": "asdf",
+              "province": "DKI Jakarta",
+              "city": "Jakarta Pusat",
+              "latitude": 12.21222,
+              "longitude": 12.1231
+            }
+          },
+          "order_date": "2011-10-05T14:48:00.000Z",
+          "address": {
+            "detail": "asdf",
+            "province": "DKI Jakarta",
+            "city": "Jakarta Pusat",
+            "latitude": 12.21222,
+            "longitude": 12.1231
+          },
+          "shipping_method": {
+            "name": "YES",
+            "cost_per_km": 10000
+          },
+          "payment": {
+            "payment_file": "blabla/paymentphoto.jpg",
+            "status": "paid"
+          },
+          "order_status": "Sent",
+          "shipping_cost": 10000,
+          "total_drugs_amount": 3,
+          "total_amount": 50000
+        },
+        {
+          "id": 4,
+          "user": {
+            "id": 1,
+            "name": "User 1",
+            "email": "uchiha.sasuke@shopee.com",
+            "phone_number": "+6281234567890",
+            "online_status": "",
+            "photo": "url/photo.png",
+            "default_address_id": 1
+          },
+          "pharmacy": {
+            "id": 2,
+            "name": "RS Siloam",
+            "pharmacist_name": "Naruto 2",
+            "license_number": "safasdf",
+            "phone_number": "+6281234567890",
+            "email": "pharmacy.contact@mail.com",
+            "address": {
+              "detail": "asdf",
+              "province": "DKI Jakarta",
+              "city": "Jakarta Pusat",
+              "latitude": 12.21222,
+              "longitude": 12.1231
+            }
+          },
+          "order_date": "2011-10-05T14:48:00.000Z",
+          "address": {
+            "detail": "asdf",
+            "province": "DKI Jakarta",
+            "city": "Jakarta Pusat",
+            "latitude": 12.21222,
+            "longitude": 12.1231
+          },
+          "shipping_method": {
+            "name": "YES",
+            "cost_per_km": 10000
+          },
+          "payment": {
+            "payment_file": "blabla/paymentphoto.jpg",
+            "status": "paid"
+          },
+          "order_status": "Order Confirmed",
+          "shipping_cost": 10000,
+          "total_drugs_amount": 3,
+          "total_amount": 23000
+        },
+        {
+          "id": 5,
+          "user": {
+            "id": 1,
+            "name": "User 4",
+            "email": "uchiha.sasuke@shopee.com",
+            "phone_number": "+6281234567890",
+            "online_status": "",
+            "photo": "url/photo.png",
+            "default_address_id": 1
+          },
+          "pharmacy": {
+            "id": 2,
+            "name": "RS Siloam",
+            "pharmacist_name": "Naruto 2",
+            "license_number": "safasdf",
+            "phone_number": "+6281234567890",
+            "email": "pharmacy.contact@mail.com",
+            "address": {
+              "detail": "asdf",
+              "province": "DKI Jakarta",
+              "city": "Jakarta Pusat",
+              "latitude": 12.21222,
+              "longitude": 12.1231
+            }
+          },
+          "order_date": "2011-10-05T14:48:00.000Z",
+          "address": {
+            "detail": "asdf",
+            "province": "DKI Jakarta",
+            "city": "Jakarta Pusat",
+            "latitude": 12.21222,
+            "longitude": 12.1231
+          },
+          "shipping_method": {
+            "name": "YES",
+            "cost_per_km": 10000
+          },
+          "payment": {
+            "payment_file": "blabla/paymentphoto.jpg",
+            "status": "paid"
+          },
+          "order_status": "Waiting for Payment",
+          "shipping_cost": 10000,
+          "total_drugs_amount": 3,
+          "total_amount": 23000
+        },
+        {
+          "id": 6,
+          "user": {
+            "id": 1,
+            "name": "User 4 cancel",
+            "email": "uchiha.sasuke@shopee.com",
+            "phone_number": "+6281234567890",
+            "online_status": "",
+            "photo": "url/photo.png",
+            "default_address_id": 1
+          },
+          "pharmacy": {
+            "id": 2,
+            "name": "RS Siloam",
+            "pharmacist_name": "Naruto 2",
+            "license_number": "safasdf",
+            "phone_number": "+6281234567890",
+            "email": "pharmacy.contact@mail.com",
+            "address": {
+              "detail": "asdf",
+              "province": "DKI Jakarta",
+              "city": "Jakarta Pusat",
+              "latitude": 12.21222,
+              "longitude": 12.1231
+            }
+          },
+          "order_date": "2011-10-05T14:48:00.000Z",
+          "address": {
+            "detail": "asdf",
+            "province": "DKI Jakarta",
+            "city": "Jakarta Pusat",
+            "latitude": 12.21222,
+            "longitude": 12.1231
+          },
+          "shipping_method": {
+            "name": "YES",
+            "cost_per_km": 10000
+          },
+          "payment": {
+            "payment_file": "blabla/paymentphoto.jpg",
+            "status": "paid"
+          },
+          "order_status": "Canceled",
+          "shipping_cost": 10000,
+          "total_drugs_amount": 3,
+          "total_amount": 23000
+        }
+      ]
+    }
+  },
+  "order-detail": {
+    "data": {
+      "order": {
+        "id": 1,
+        "user": {
+          "id": 1,
+          "name": "Om Andri",
+          "email": "uchiha.sasuke@shopee.com",
+          "phone_number": "+6281234432123",
+          "online_status": "",
+          "photo": "public/user_photo/default.jpg",
+          "default_address_id": 1
+        },
+        "pharmacy": {
+          "id": 2,
+          "name": "RS Siloam",
+          "pharmacist_name": "Naruto 2",
+          "license_number": "safasdf",
+          "phone_number": "+6281234567890",
+          "email": "pharmacy.contact@mail.com",
+          "address": {
+            "detail": "Lapangan Medan Merdeka RT.5/RW.2, Kelurahan Gambir, Kecamatan Gambir",
+            "province": "DKI Jakarta",
+            "city": "Jakarta Pusat",
+            "latitude": -6.175392,
+            "longitude": 106.827153
+          }
+        },
+        "order_date": "2011-10-05T14:48:00.000Z",
+        "address": {
+          "detail": "Jalan Antelop 2 K10/H7, RT/RW 001/015",
+          "province": "DKI Jakarta",
+          "city": "Jakarta Pusat",
+          "latitude": -6.230343756829693,
+          "longitude": 106.82432038728003
+        },
+        "shipping_method": {
+          "name": "YES",
+          "cost_per_km": 10000
+        },
+        "payment": {
+          "payment_file": "http://e-journal.uajy.ac.id/10659/1/JurnalHK11025.pdf",
+          "status": "paid"
+        },
+        "products": [
+          {
+            "id": 1,
+            "name": "Fluimucil 600 mg 2 Tablet Effervescent",
+            "description": " FLUIMUCIL Effervescent 600 mengandung zat aktif Acetylcysteine 600 mg, yang diindikasikan sebagai obat batuk-mukolitik bekerja dengan mengencerkan dahak dan mengaktifkan sistem silia pembersihan paru. Dalam penggunaan obat ini HARUS SESUAI DENGAN PETUNJUK DOKTER. ",
+            "amount": 2,
+            "image": "public/user_photo/default.jpg",
+            "selling_unit": 20000
+          },
+          {
+            "id": 2,
+            "name": "Bear Brand Susu Steril 189 ml",
+            "description": "BEAR BRAND merupakan 100% susu sapi murni siap konsumsi yang telah mengalami proses sterilisasi tanpa penambahan bahan pengawet didalamnya. Susu murni yang terkandung di dalamnya dapat membantu menjaga kesehatan tubuh.",
+            "amount": 8,
+            "image": "public/user_photo/default.jpg",
+            "selling_unit": 14000
+          }
+        ],
+        "order_status": "Processed",
+        "shipping_cost": 10000,
+        "total_drugs_amount": 3,
+        "total_amount": 50000,
+        "updated_at": "2011-12-05T12:18:00.000Z"
+      }
+    }
+  },
+  "order-detail-2": {
+    "data": {
+      "order": {
+        "id": 2,
+        "user": {
+          "id": 1,
+          "name": "Om Andri 2",
+          "email": "uchiha.sasuke@shopee.com",
+          "phone_number": "+6281234432123",
+          "online_status": "",
+          "photo": "public/user_photo/default.jpg",
+          "default_address_id": 1
+        },
+        "pharmacy": {
+          "id": 2,
+          "name": "RS Siloam",
+          "pharmacist_name": "Naruto 2",
+          "license_number": "safasdf",
+          "phone_number": "+6281234567890",
+          "email": "pharmacy.contact@mail.com",
+          "address": {
+            "detail": "Lapangan Medan Merdeka RT.5/RW.2, Kelurahan Gambir, Kecamatan Gambir",
+            "province": "DKI Jakarta",
+            "city": "Jakarta Pusat",
+            "latitude": -6.175392,
+            "longitude": 106.827153
+          }
+        },
+        "order_date": "2024-01-01T07:00:00+07:00",
+        "address": {
+          "detail": "Jalan Antelop 2 K10/H7, RT/RW 001/015",
+          "province": "DKI Jakarta",
+          "city": "Jakarta Pusat",
+          "latitude": -6.230343756829693,
+          "longitude": 106.82432038728003
+        },
+        "shipping_method": {
+          "name": "YES",
+          "cost_per_km": 10000
+        },
+        "payment": {
+          "payment_file": "http://e-journal.uajy.ac.id/10659/1/JurnalHK11025.pdf",
+          "status": "paid"
+        },
+        "products": [
+          {
+            "id": 1,
+            "name": "Fluimucil 600 mg 2 Tablet Effervescent",
+            "description": " FLUIMUCIL Effervescent 600 mengandung zat aktif Acetylcysteine 600 mg, yang diindikasikan sebagai obat batuk-mukolitik bekerja dengan mengencerkan dahak dan mengaktifkan sistem silia pembersihan paru. Dalam penggunaan obat ini HARUS SESUAI DENGAN PETUNJUK DOKTER. ",
+            "amount": 2,
+            "image": "public/user_photo/default.jpg",
+            "selling_unit": 20000
+          },
+          {
+            "id": 2,
+            "name": "Bear Brand Susu Steril 189 ml",
+            "description": "BEAR BRAND merupakan 100% susu sapi murni siap konsumsi yang telah mengalami proses sterilisasi tanpa penambahan bahan pengawet didalamnya. Susu murni yang terkandung di dalamnya dapat membantu menjaga kesehatan tubuh.",
+            "amount": 8,
+            "image": "public/user_photo/default.jpg",
+            "selling_unit": 14000
+          }
+        ],
+        "order_status": "Waiting for Confirmation",
+        "shipping_cost": 10000,
+        "total_drugs_amount": 3,
+        "total_amount": 50000,
+        "updated_at": "2011-12-05T12:18:00.000Z"
+      }
+    }
+  },
+  "order-detail-3": {
+    "data": {
+      "order": {
+        "id": 3,
+        "user": {
+          "id": 1,
+          "name": "Om Andri 2",
+          "email": "uchiha.sasuke@shopee.com",
+          "phone_number": "+6281234432123",
+          "online_status": "",
+          "photo": "public/user_photo/default.jpg",
+          "default_address_id": 1
+        },
+        "pharmacy": {
+          "id": 2,
+          "name": "RS Siloam",
+          "pharmacist_name": "Naruto 2",
+          "license_number": "safasdf",
+          "phone_number": "+6281234567890",
+          "email": "pharmacy.contact@mail.com",
+          "address": {
+            "detail": "Lapangan Medan Merdeka RT.5/RW.2, Kelurahan Gambir, Kecamatan Gambir",
+            "province": "DKI Jakarta",
+            "city": "Jakarta Pusat",
+            "latitude": -6.175392,
+            "longitude": 106.827153
+          }
+        },
+        "order_date": "2011-10-05T14:48:00.000Z",
+        "address": {
+          "detail": "Jalan Antelop 2 K10/H7, RT/RW 001/015",
+          "province": "DKI Jakarta",
+          "city": "Jakarta Pusat",
+          "latitude": -6.230343756829693,
+          "longitude": 106.82432038728003
+        },
+        "shipping_method": {
+          "name": "YES",
+          "cost_per_km": 10000
+        },
+        "payment": {
+          "payment_file": "http://e-journal.uajy.ac.id/10659/1/JurnalHK11025.pdf",
+          "status": "paid"
+        },
+        "products": [
+          {
+            "id": 1,
+            "name": "Fluimucil 600 mg 2 Tablet Effervescent",
+            "description": " FLUIMUCIL Effervescent 600 mengandung zat aktif Acetylcysteine 600 mg, yang diindikasikan sebagai obat batuk-mukolitik bekerja dengan mengencerkan dahak dan mengaktifkan sistem silia pembersihan paru. Dalam penggunaan obat ini HARUS SESUAI DENGAN PETUNJUK DOKTER. ",
+            "amount": 2,
+            "image": "public/user_photo/default.jpg",
+            "selling_unit": 20000
+          },
+          {
+            "id": 2,
+            "name": "Bear Brand Susu Steril 189 ml",
+            "description": "BEAR BRAND merupakan 100% susu sapi murni siap konsumsi yang telah mengalami proses sterilisasi tanpa penambahan bahan pengawet didalamnya. Susu murni yang terkandung di dalamnya dapat membantu menjaga kesehatan tubuh.",
+            "amount": 8,
+            "image": "public/user_photo/default.jpg",
+            "selling_unit": 14000
+          }
+        ],
+        "order_status": "Sent",
+        "shipping_cost": 10000,
+        "total_drugs_amount": 3,
+        "total_amount": 50000,
+        "updated_at": "2011-12-05T12:18:00.000Z"
+      }
+    }
+  },
+  "order-detail-4": {
+    "data": {
+      "order": {
+        "id": 4,
+        "user": {
+          "id": 1,
+          "name": "Om Andri 2",
+          "email": "uchiha.sasuke@shopee.com",
+          "phone_number": "+6281234432123",
+          "online_status": "",
+          "photo": "public/user_photo/default.jpg",
+          "default_address_id": 1
+        },
+        "pharmacy": {
+          "id": 2,
+          "name": "RS Siloam",
+          "pharmacist_name": "Naruto 2",
+          "license_number": "safasdf",
+          "phone_number": "+6281234567890",
+          "email": "pharmacy.contact@mail.com",
+          "address": {
+            "detail": "Lapangan Medan Merdeka RT.5/RW.2, Kelurahan Gambir, Kecamatan Gambir",
+            "province": "DKI Jakarta",
+            "city": "Jakarta Pusat",
+            "latitude": -6.175392,
+            "longitude": 106.827153
+          }
+        },
+        "order_date": "2011-10-05T14:48:00.000Z",
+        "address": {
+          "detail": "Jalan Antelop 2 K10/H7, RT/RW 001/015",
+          "province": "DKI Jakarta",
+          "city": "Jakarta Pusat",
+          "latitude": -6.230343756829693,
+          "longitude": 106.82432038728003
+        },
+        "shipping_method": {
+          "name": "YES",
+          "cost_per_km": 10000
+        },
+        "payment": {
+          "payment_file": "http://e-journal.uajy.ac.id/10659/1/JurnalHK11025.pdf",
+          "status": "paid"
+        },
+        "products": [
+          {
+            "id": 1,
+            "name": "Fluimucil 600 mg 2 Tablet Effervescent",
+            "description": " FLUIMUCIL Effervescent 600 mengandung zat aktif Acetylcysteine 600 mg, yang diindikasikan sebagai obat batuk-mukolitik bekerja dengan mengencerkan dahak dan mengaktifkan sistem silia pembersihan paru. Dalam penggunaan obat ini HARUS SESUAI DENGAN PETUNJUK DOKTER. ",
+            "amount": 2,
+            "image": "public/user_photo/default.jpg",
+            "selling_unit": 20000
+          },
+          {
+            "id": 2,
+            "name": "Bear Brand Susu Steril 189 ml",
+            "description": "BEAR BRAND merupakan 100% susu sapi murni siap konsumsi yang telah mengalami proses sterilisasi tanpa penambahan bahan pengawet didalamnya. Susu murni yang terkandung di dalamnya dapat membantu menjaga kesehatan tubuh.",
+            "amount": 8,
+            "image": "public/user_photo/default.jpg",
+            "selling_unit": 14000
+          }
+        ],
+        "order_status": "Order Confirmed",
+        "shipping_cost": 10000,
+        "total_drugs_amount": 3,
+        "total_amount": 50000,
+        "updated_at": "2011-12-05T12:18:00.000Z"
+      }
+    }
+  },
+  "order-detail-5": {
+    "data": {
+      "order": {
+        "id": 5,
+        "user": {
+          "id": 1,
+          "name": "Om Andri 2",
+          "email": "uchiha.sasuke@shopee.com",
+          "phone_number": "+6281234432123",
+          "online_status": "",
+          "photo": "public/user_photo/default.jpg",
+          "default_address_id": 1
+        },
+        "pharmacy": {
+          "id": 2,
+          "name": "RS Siloam",
+          "pharmacist_name": "Naruto 2",
+          "license_number": "safasdf",
+          "phone_number": "+6281234567890",
+          "email": "pharmacy.contact@mail.com",
+          "address": {
+            "detail": "Lapangan Medan Merdeka RT.5/RW.2, Kelurahan Gambir, Kecamatan Gambir",
+            "province": "DKI Jakarta",
+            "city": "Jakarta Pusat",
+            "latitude": -6.175392,
+            "longitude": 106.827153
+          }
+        },
+        "order_date": "2011-10-05T14:48:00.000Z",
+        "address": {
+          "detail": "Jalan Antelop 2 K10/H7, RT/RW 001/015",
+          "province": "DKI Jakarta",
+          "city": "Jakarta Pusat",
+          "latitude": -6.230343756829693,
+          "longitude": 106.82432038728003
+        },
+        "shipping_method": {
+          "name": "YES",
+          "cost_per_km": 10000
+        },
+        "payment": {
+          "payment_file": "http://e-journal.uajy.ac.id/10659/1/JurnalHK11025.pdf",
+          "status": "not paid"
+        },
+        "products": [
+          {
+            "id": 1,
+            "name": "Fluimucil 600 mg 2 Tablet Effervescent",
+            "description": " FLUIMUCIL Effervescent 600 mengandung zat aktif Acetylcysteine 600 mg, yang diindikasikan sebagai obat batuk-mukolitik bekerja dengan mengencerkan dahak dan mengaktifkan sistem silia pembersihan paru. Dalam penggunaan obat ini HARUS SESUAI DENGAN PETUNJUK DOKTER. ",
+            "amount": 2,
+            "image": "public/user_photo/default.jpg",
+            "selling_unit": 20000
+          },
+          {
+            "id": 2,
+            "name": "Bear Brand Susu Steril 189 ml",
+            "description": "BEAR BRAND merupakan 100% susu sapi murni siap konsumsi yang telah mengalami proses sterilisasi tanpa penambahan bahan pengawet didalamnya. Susu murni yang terkandung di dalamnya dapat membantu menjaga kesehatan tubuh.",
+            "amount": 8,
+            "image": "public/user_photo/default.jpg",
+            "selling_unit": 14000
+          }
+        ],
+        "order_status": "Waiting for Payment",
+        "shipping_cost": 10000,
+        "total_drugs_amount": 3,
+        "total_amount": 50000,
+        "updated_at": "2011-12-05T12:18:00.000Z"
+      }
+    }
+  },
+  "order-detail-6": {
+    "data": {
+      "order": {
+        "id": 6,
+        "user": {
+          "id": 1,
+          "name": "Om Andri 2",
+          "email": "uchiha.sasuke@shopee.com",
+          "phone_number": "+6281234432123",
+          "online_status": "",
+          "photo": "public/user_photo/default.jpg",
+          "default_address_id": 1
+        },
+        "pharmacy": {
+          "id": 2,
+          "name": "RS Siloam",
+          "pharmacist_name": "Naruto 2",
+          "license_number": "safasdf",
+          "phone_number": "+6281234567890",
+          "email": "pharmacy.contact@mail.com",
+          "address": {
+            "detail": "Lapangan Medan Merdeka RT.5/RW.2, Kelurahan Gambir, Kecamatan Gambir",
+            "province": "DKI Jakarta",
+            "city": "Jakarta Pusat",
+            "latitude": -6.175392,
+            "longitude": 106.827153
+          }
+        },
+        "order_date": "2011-10-05T14:48:00.000Z",
+        "address": {
+          "detail": "Jalan Antelop 2 K10/H7, RT/RW 001/015",
+          "province": "DKI Jakarta",
+          "city": "Jakarta Pusat",
+          "latitude": -6.230343756829693,
+          "longitude": 106.82432038728003
+        },
+        "shipping_method": {
+          "name": "YES",
+          "cost_per_km": 10000
+        },
+        "payment": {
+          "payment_file": "http://e-journal.uajy.ac.id/10659/1/JurnalHK11025.pdf",
+          "status": "paid"
+        },
+        "products": [
+          {
+            "id": 1,
+            "name": "Fluimucil 600 mg 2 Tablet Effervescent",
+            "description": " FLUIMUCIL Effervescent 600 mengandung zat aktif Acetylcysteine 600 mg, yang diindikasikan sebagai obat batuk-mukolitik bekerja dengan mengencerkan dahak dan mengaktifkan sistem silia pembersihan paru. Dalam penggunaan obat ini HARUS SESUAI DENGAN PETUNJUK DOKTER. ",
+            "amount": 2,
+            "image": "public/user_photo/default.jpg",
+            "selling_unit": 20000
+          },
+          {
+            "id": 2,
+            "name": "Bear Brand Susu Steril 189 ml",
+            "description": "BEAR BRAND merupakan 100% susu sapi murni siap konsumsi yang telah mengalami proses sterilisasi tanpa penambahan bahan pengawet didalamnya. Susu murni yang terkandung di dalamnya dapat membantu menjaga kesehatan tubuh.",
+            "amount": 8,
+            "image": "public/user_photo/default.jpg",
+            "selling_unit": 14000
+          }
+        ],
+        "order_status": "Canceled",
+        "shipping_cost": 10000,
+        "total_drugs_amount": 3,
+        "total_amount": 50000,
+        "updated_at": "2011-12-05T12:18:00.000Z"
+      }
+    }
+  },
+  "orders-of-pharmacies": {
+    "data": {
+      "orders": [
+        {
+          "id": 1,
+          "user": {
+            "id": 1,
+            "name": "User 1",
+            "email": "uchiha.sasuke@shopee.com",
+            "phone_number": "+6281234567890",
+            "online_status": "",
+            "photo": "url/photo.png",
+            "default_address_id": 1
+          },
+          "pharmacy": {
+            "id": 2,
+            "name": "RS Siloam PHARMACIES",
+            "pharmacist_name": "Naruto 2",
+            "license_number": "safasdf",
+            "phone_number": "+6281234567890",
+            "email": "pharmacy.contact@mail.com",
+            "address": {
+              "detail": "asdf",
+              "province": "DKI Jakarta",
+              "city": "Jakarta Pusat",
+              "latitude": 12.21222,
+              "longitude": 12.1231
+            }
+          },
+          "order_date": "2011-10-05T14:48:00.000Z",
+          "address": {
+            "detail": "asdf",
+            "province": "DKI Jakarta",
+            "city": "Jakarta Pusat",
+            "latitude": 12.21222,
+            "longitude": 12.1231
+          },
+          "shipping_method": {
+            "name": "YES",
+            "cost_per_km": 10000
+          },
+          "payment": {
+            "payment_file": "blabla/paymentphoto.jpg",
+            "status": "paid"
+          },
+          "order_status": "Processed",
+          "shipping_cost": 10000,
+          "total_drugs_amount": 3,
+          "total_amount": 50000
+        },
+        {
+          "id": 2,
+          "user": {
+            "id": 1,
+            "name": "User 2",
+            "email": "uchiha.sasuke@shopee.com",
+            "phone_number": "+6281234567890",
+            "online_status": "",
+            "photo": "url/photo.png",
+            "default_address_id": 1
+          },
+          "pharmacy": {
+            "id": 2,
+            "name": "RS Siloam",
+            "pharmacist_name": "Naruto 2",
+            "license_number": "safasdf",
+            "phone_number": "+6281234567890",
+            "email": "pharmacy.contact@mail.com",
+            "address": {
+              "detail": "asdf",
+              "province": "DKI Jakarta",
+              "city": "Jakarta Pusat",
+              "latitude": 12.21222,
+              "longitude": 12.1231
+            }
+          },
+          "order_date": "2011-10-05T14:48:00.000Z",
+          "address": {
+            "detail": "asdf",
+            "province": "DKI Jakarta",
+            "city": "Jakarta Pusat",
+            "latitude": 12.21222,
+            "longitude": 12.1231
+          },
+          "shipping_method": {
+            "name": "YES",
+            "cost_per_km": 10000
+          },
+          "payment": {
+            "payment_file": "blabla/paymentphoto.jpg",
+            "status": "paid"
+          },
+          "order_status": "Waiting for Confirmation",
+          "shipping_cost": 10000,
+          "total_drugs_amount": 3,
+          "total_amount": 50000
+        },
+        {
+          "id": 3,
+          "user": {
+            "id": 1,
+            "name": "User 1",
+            "email": "uchiha.sasuke@shopee.com",
+            "phone_number": "+6281234567890",
+            "online_status": "",
+            "photo": "url/photo.png",
+            "default_address_id": 1
+          },
+          "pharmacy": {
+            "id": 2,
+            "name": "RS Harapan Kita2 PHARMACIES",
+            "pharmacist_name": "Naruto 2",
+            "license_number": "safasdf",
+            "phone_number": "+6281234567890",
+            "email": "pharmacy.contact@mail.com",
+            "address": {
+              "detail": "asdf",
+              "province": "DKI Jakarta",
+              "city": "Jakarta Pusat",
+              "latitude": 12.21222,
+              "longitude": 12.1231
+            }
+          },
+          "order_date": "2011-10-05T14:48:00.000Z",
+          "address": {
+            "detail": "asdf",
+            "province": "DKI Jakarta",
+            "city": "Jakarta Pusat",
+            "latitude": 12.21222,
+            "longitude": 12.1231
+          },
+          "shipping_method": {
+            "name": "YES",
+            "cost_per_km": 10000
+          },
+          "payment": {
+            "payment_file": "blabla/paymentphoto.jpg",
+            "status": "paid"
+          },
+          "order_status": "Sent",
+          "shipping_cost": 10000,
+          "total_drugs_amount": 3,
+          "total_amount": 50000
+        },
+        {
+          "id": 4,
+          "user": {
+            "id": 1,
+            "name": "User 1",
+            "email": "uchiha.sasuke@shopee.com",
+            "phone_number": "+6281234567890",
+            "online_status": "",
+            "photo": "url/photo.png",
+            "default_address_id": 1
+          },
+          "pharmacy": {
+            "id": 2,
+            "name": "RS Siloam",
+            "pharmacist_name": "Naruto 2",
+            "license_number": "safasdf",
+            "phone_number": "+6281234567890",
+            "email": "pharmacy.contact@mail.com",
+            "address": {
+              "detail": "asdf",
+              "province": "DKI Jakarta",
+              "city": "Jakarta Pusat",
+              "latitude": 12.21222,
+              "longitude": 12.1231
+            }
+          },
+          "order_date": "2011-10-05T14:48:00.000Z",
+          "address": {
+            "detail": "asdf",
+            "province": "DKI Jakarta",
+            "city": "Jakarta Pusat",
+            "latitude": 12.21222,
+            "longitude": 12.1231
+          },
+          "shipping_method": {
+            "name": "YES",
+            "cost_per_km": 10000
+          },
+          "payment": {
+            "payment_file": "blabla/paymentphoto.jpg",
+            "status": "paid"
+          },
+          "order_status": "Order Confirmed",
+          "shipping_cost": 10000,
+          "total_drugs_amount": 3,
+          "total_amount": 23000
+        },
+        {
+          "id": 5,
+          "user": {
+            "id": 1,
+            "name": "User 4",
+            "email": "uchiha.sasuke@shopee.com",
+            "phone_number": "+6281234567890",
+            "online_status": "",
+            "photo": "url/photo.png",
+            "default_address_id": 1
+          },
+          "pharmacy": {
+            "id": 2,
+            "name": "RS Siloam",
+            "pharmacist_name": "Naruto 2",
+            "license_number": "safasdf",
+            "phone_number": "+6281234567890",
+            "email": "pharmacy.contact@mail.com",
+            "address": {
+              "detail": "asdf",
+              "province": "DKI Jakarta",
+              "city": "Jakarta Pusat",
+              "latitude": 12.21222,
+              "longitude": 12.1231
+            }
+          },
+          "order_date": "2011-10-05T14:48:00.000Z",
+          "address": {
+            "detail": "asdf",
+            "province": "DKI Jakarta",
+            "city": "Jakarta Pusat",
+            "latitude": 12.21222,
+            "longitude": 12.1231
+          },
+          "shipping_method": {
+            "name": "YES",
+            "cost_per_km": 10000
+          },
+          "payment": {
+            "payment_file": "blabla/paymentphoto.jpg",
+            "status": "paid"
+          },
+          "order_status": "Waiting for Payment",
+          "shipping_cost": 10000,
+          "total_drugs_amount": 3,
+          "total_amount": 23000
+        },
+        {
+          "id": 6,
+          "user": {
+            "id": 1,
+            "name": "User 4 cancel",
+            "email": "uchiha.sasuke@shopee.com",
+            "phone_number": "+6281234567890",
+            "online_status": "",
+            "photo": "url/photo.png",
+            "default_address_id": 1
+          },
+          "pharmacy": {
+            "id": 2,
+            "name": "RS Siloam",
+            "pharmacist_name": "Naruto 2",
+            "license_number": "safasdf",
+            "phone_number": "+6281234567890",
+            "email": "pharmacy.contact@mail.com",
+            "address": {
+              "detail": "asdf",
+              "province": "DKI Jakarta",
+              "city": "Jakarta Pusat",
+              "latitude": 12.21222,
+              "longitude": 12.1231
+            }
+          },
+          "order_date": "2011-10-05T14:48:00.000Z",
+          "address": {
+            "detail": "asdf",
+            "province": "DKI Jakarta",
+            "city": "Jakarta Pusat",
+            "latitude": 12.21222,
+            "longitude": 12.1231
+          },
+          "shipping_method": {
+            "name": "YES",
+            "cost_per_km": 10000
+          },
+          "payment": {
+            "payment_file": "blabla/paymentphoto.jpg",
+            "status": "paid"
+          },
+          "order_status": "Canceled",
+          "shipping_cost": 10000,
+          "total_drugs_amount": 3,
+          "total_amount": 23000
+        }
+      ]
+    }
+  },
+  "stock-mutations": {
+    "data": {
+      "stock_mutations": [
+        {
+          "id": 1,
+          "drug": {
+            "id": 1,
+            "name": "Obat 1",
+            "generic_name": "Paracetamol",
+            "content": "dsadas",
+            "manufacture": "Kimia Farma",
+            "description": "blablab",
+            "drug_form": "cair",
+            "category": "Obat Keras",
+            "selling_unit": 5000,
+            "unit_in_pack": "3",
+            "weight": 100,
+            "height": 200,
+            "length": 300,
+            "width": 120,
+            "image": "url/photo.jpg",
+            "status": "status"
+          },
+          "from_pharmacy": {
+            "id": 2,
+            "name": "RS Siloam",
+            "pharmacist_name": "Naruto 2",
+            "license_number": "safasdf",
+            "phone_number": "+6281234567890",
+            "address": {
+              "detail": "asdf",
+              "province": "DKI Jakarta",
+              "city": "Jakarta Pusat",
+              "latitude": 12.21222,
+              "longitude": 12.1231
+            }
+          },
+          "to_pharmacy": {
+            "id": 1,
+            "name": "RS Harapan Kita",
+            "pharmacist_name": "Naruto",
+            "license_number": "safasdf",
+            "phone_number": "+6281234567890",
+            "address": {
+              "detail": "asdf",
+              "province": "DKI Jakarta",
+              "city": "Jakarta Utara",
+              "latitude": 12.21222,
+              "longitude": 12.1231
+            }
+          },
+          "status_mutation": "success",
+          "quantity": 4,
+          "created_at": "2011-10-05T14:48:00.000Z"
+        },
+        {
+          "id": 2,
+          "drug": {
+            "id": 1,
+            "name": "Obat 4",
+            "generic_name": "Paracetamol",
+            "content": "dsadas",
+            "manufacture": "Kimia Farma",
+            "description": "blablab",
+            "drug_form": "cair",
+            "category": "Obat Keras",
+            "selling_unit": 5000,
+            "unit_in_pack": "3",
+            "weight": 100,
+            "height": 200,
+            "length": 300,
+            "width": 120,
+            "image": "url/photo.jpg",
+            "status": "pending"
+          },
+          "from_pharmacy": {
+            "id": 2,
+            "name": "RS Siloam",
+            "pharmacist_name": "Naruto 2",
+            "license_number": "safasdf",
+            "phone_number": "+6281234567890",
+            "address": {
+              "detail": "asdf",
+              "province": "DKI Jakarta",
+              "city": "Jakarta Pusat",
+              "latitude": 12.21222,
+              "longitude": 12.1231
+            }
+          },
+          "to_pharmacy": {
+            "id": 1,
+            "name": "RS Harapan Kita",
+            "pharmacist_name": "Naruto",
+            "license_number": "safasdf",
+            "phone_number": "+6281234567890",
+            "address": {
+              "detail": "asdf",
+              "province": "DKI Jakarta",
+              "city": "Jakarta Utara",
+              "latitude": 12.21222,
+              "longitude": 12.1231
+            }
+          },
+          "status_mutation": "pending",
+          "quantity": 4,
+          "created_at": "2011-10-05T14:48:00.000Z"
+        },
+        {
+          "id": 3,
+          "drug": {
+            "id": 1,
+            "name": "Obat 213",
+            "generic_name": "Paracetamol",
+            "content": "dsadas",
+            "manufacture": "Kimia Farma",
+            "description": "blablab",
+            "drug_form": "cair",
+            "category": "Obat Keras",
+            "selling_unit": 5000,
+            "unit_in_pack": "3",
+            "weight": 100,
+            "height": 200,
+            "length": 300,
+            "width": 120,
+            "image": "url/photo.jpg",
+            "status": "pending"
+          },
+          "from_pharmacy": {
+            "id": 2,
+            "name": "RS Siloam",
+            "pharmacist_name": "Naruto 2",
+            "license_number": "safasdf",
+            "phone_number": "+6281234567890",
+            "address": {
+              "detail": "asdf",
+              "province": "DKI Jakarta",
+              "city": "Jakarta Pusat",
+              "latitude": 12.21222,
+              "longitude": 12.1231
+            }
+          },
+          "to_pharmacy": {
+            "id": 1,
+            "name": "RS Harapan Kita",
+            "pharmacist_name": "Naruto",
+            "license_number": "safasdf",
+            "phone_number": "+6281234567890",
+            "address": {
+              "detail": "asdf",
+              "province": "DKI Jakarta",
+              "city": "Jakarta Utara",
+              "latitude": 12.21222,
+              "longitude": 12.1231
+            }
+          },
+          "status_mutation": "rejected",
+          "quantity": 4,
+          "created_at": "2011-10-05T14:48:00.000Z"
+        }
+      ]
+    }
+  },
+  "stock-mutation": {
+    "data": {
+      "stock_mutation": {
+        "id": 1,
+        "drug": {
+          "id": 1,
+          "name": "Obat 1",
+          "generic_name": "Paracetamol",
+          "content": "dsadas",
+          "manufacture": "Kimia Farma",
+          "description": "blablab",
+          "drug_form": "cair",
+          "category": "Obat Keras",
+          "selling_unit": 5000,
+          "unit_in_pack": "3",
+          "weight": 100,
+          "height": 200,
+          "length": 300,
+          "width": 120,
+          "image": "public/user_photo/default.jpg",
+          "status": "status"
+        },
+        "from_pharmacy": {
+          "id": 2,
+          "name": "RS Siloam",
+          "pharmacist_name": "Naruto 2",
+          "license_number": "safasdf",
+          "phone_number": "+6281234567890",
+          "address": {
+            "detail": "asdf",
+            "province": "DKI Jakarta",
+            "city": "Jakarta Pusat",
+            "latitude": 12.21222,
+            "longitude": 12.1231
+          }
+        },
+        "to_pharmacy": {
+          "id": 1,
+          "name": "RS Harapan Kita",
+          "pharmacist_name": "Naruto",
+          "license_number": "safasdf",
+          "phone_number": "+6281234567890",
+          "address": {
+            "detail": "asdf",
+            "province": "DKI Jakarta",
+            "city": "Jakarta Utara",
+            "latitude": 12.21222,
+            "longitude": 12.1231
+          }
+        },
+        "status_mutation": "success",
+        "quantity": 4,
+        "created_at": "2011-10-05T14:48:00.000Z"
+      }
+    }
+  },
+  "stock-mutation-2": {
+    "data": {
+      "stock_mutation": {
+        "id": 2,
+        "drug": {
+          "id": 1,
+          "name": "Obat 1",
+          "generic_name": "Paracetamol",
+          "content": "dsadas",
+          "manufacture": "Kimia Farma",
+          "description": "blablab",
+          "drug_form": "cair",
+          "category": "Obat Keras",
+          "selling_unit": 5000,
+          "unit_in_pack": "3",
+          "weight": 100,
+          "height": 200,
+          "length": 300,
+          "width": 120,
+          "image": "public/user_photo/default.jpg",
+          "status": "status"
+        },
+        "from_pharmacy": {
+          "id": 2,
+          "name": "RS Siloam",
+          "pharmacist_name": "Naruto 2",
+          "license_number": "safasdf",
+          "phone_number": "+6281234567890",
+          "address": {
+            "detail": "asdf",
+            "province": "DKI Jakarta",
+            "city": "Jakarta Pusat",
+            "latitude": 12.21222,
+            "longitude": 12.1231
+          }
+        },
+        "to_pharmacy": {
+          "id": 1,
+          "name": "RS Harapan Kita",
+          "pharmacist_name": "Naruto",
+          "license_number": "safasdf",
+          "phone_number": "+6281234567890",
+          "address": {
+            "detail": "asdf",
+            "province": "DKI Jakarta",
+            "city": "Jakarta Utara",
+            "latitude": 12.21222,
+            "longitude": 12.1231
+          }
+        },
+        "status_mutation": "pending",
+        "quantity": 4,
+        "created_at": "2011-10-05T14:48:00.000Z"
+      }
+    }
+  },
+  "stock-mutation-3": {
+    "data": {
+      "stock_mutation": {
+        "id": 3,
+        "drug": {
+          "id": 1,
+          "name": "Obat 1",
+          "generic_name": "Paracetamol",
+          "content": "dsadas",
+          "manufacture": "Kimia Farma",
+          "description": "blablab",
+          "drug_form": "cair",
+          "category": "Obat Keras",
+          "selling_unit": 5000,
+          "unit_in_pack": "3",
+          "weight": 100,
+          "height": 200,
+          "length": 300,
+          "width": 120,
+          "image": "public/user_photo/default.jpg",
+          "status": "status"
+        },
+        "from_pharmacy": {
+          "id": 2,
+          "name": "RS Siloam",
+          "pharmacist_name": "Naruto 2",
+          "license_number": "safasdf",
+          "phone_number": "+6281234567890",
+          "address": {
+            "detail": "asdf",
+            "province": "DKI Jakarta",
+            "city": "Jakarta Pusat",
+            "latitude": 12.21222,
+            "longitude": 12.1231
+          }
+        },
+        "to_pharmacy": {
+          "id": 1,
+          "name": "RS Harapan Kita",
+          "pharmacist_name": "Naruto",
+          "license_number": "safasdf",
+          "phone_number": "+6281234567890",
+          "address": {
+            "detail": "asdf",
+            "province": "DKI Jakarta",
+            "city": "Jakarta Utara",
+            "latitude": 12.21222,
+            "longitude": 12.1231
+          }
+        },
+        "status_mutation": "rejected",
+        "quantity": 4,
+        "created_at": "2011-10-05T14:48:00.000Z"
+      }
+    }
+  },
+  "cities": {
+    "data": {
+      "province": {
+        "cities": [
+          {
+            "name": "Bali"
+          },
+          {
+            "name": "Jakarta Pusat"
+          },
+          {
+            "name": "Jakarta Barat"
+          }
+        ]
+      }
+    }
+  }
+}
